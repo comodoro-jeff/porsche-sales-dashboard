@@ -227,7 +227,7 @@ As imagens apresentam a interface desenvolvida e um exemplo de utilização dos 
 
 ## Acesso à Dashboard
 
-**[Acessar Dashboard Interativa — Porsche Sales Dashboard](INSERIR_LINK_DO_GITHUB_PAGES)**
+**[Acessar Dashboard Interativa — Porsche Sales Dashboard](https://comodoro-jeff.github.io/porsche-sales-dashboard/)**
 
 O código-fonte da aplicação está disponível neste repositório, no arquivo `index.html`.
 
