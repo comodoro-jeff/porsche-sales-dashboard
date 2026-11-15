@@ -4,9 +4,7 @@ Dashboard interativa desenvolvida a partir de uma base de vendas da Porsche, com
 
 ## Objetivo
 
-Transformar uma planilha de vendas da Porsche em uma dashboard interativa, acessível por meio de um navegador, que permita explorar o desempenho comercial da marca e identificar padrões de vendas a partir de diferentes dimensões de análise.
-
-A solução foi desenvolvida para:
+Transformar uma planilha de vendas da Porsche em uma dashboard interativa, acessível por meio de um navegador, que permita explorar o desempenho comercial da marca e identificar padrões de vendas a partir de diferentes dimensões de análise. A solução foi desenvolvida para:
 
 - Transformar uma base de vendas em uma interface analítica interativa.
 - Responder a perguntas de negócio por meio de gráficos e indicadores.
@@ -32,24 +30,16 @@ Foram selecionadas três perguntas para orientar a análise, considerando difere
 
 ## Dados e Preparação da Base
 
-O projeto utilizou uma planilha de vendas da Porsche como fonte de dados.
-
-Antes de utilizar a base na construção da dashboard, foram realizadas etapas de preparação para melhorar a consistência das informações disponibilizadas à ferramenta de Inteligência Artificial Generativa.
-
-O tratamento contemplou:
+O projeto utilizou uma planilha de vendas da Porsche como fonte de dados. Antes de utilizar a base na construção da dashboard, foram realizadas etapas de preparação para melhorar a consistência das informações disponibilizadas à ferramenta de Inteligência Artificial Generativa. O tratamento contemplou:
 
 - Identificação e tratamento de datas inválidas.
 - Remoção de colunas que continham dados inconsistentes para a análise.
 - Seleção das colunas sanitizadas que seriam utilizadas na dashboard.
 - Conversão dos valores de preço para um formato numérico adequado à realização de operações e cálculos.
 
-As informações foram organizadas de maneira a permitir operações de agregação, comparação e segmentação, necessárias para a construção dos indicadores e visualizações.
-
 ## Dashboard Interativa
 
-A solução foi desenvolvida em HTML, concentrando sua implementação em um único arquivo (`index.html`).
-
-A interface foi organizada em seções que apresentam indicadores executivos, filtros interativos, visualizações analíticas e um registro detalhado das transações.
+A solução foi desenvolvida em HTML, concentrando sua implementação em um único arquivo (`index.html`). A interface foi organizada em seções que apresentam indicadores executivos, filtros interativos, visualizações analíticas e um registro detalhado das transações.
 
 ### Indicadores Executivos
 
@@ -78,8 +68,6 @@ Além dos filtros, foi implementada a possibilidade de alternar o agrupamento do
 - Linha principal: agrupamento por família de modelos, como 911 e Cayenne.
 - Versão completa: identificação das versões específicas dos veículos.
 
-A funcionalidade de limpeza dos filtros permite retornar à visualização consolidada.
-
 ### Visualizações Analíticas
 
 As três perguntas de negócio são respondidas por meio de visualizações específicas:
@@ -104,29 +92,17 @@ A dashboard também disponibiliza uma tabela detalhada das transações, permiti
 
 ## Identidade Visual
 
-A identidade visual foi concebida para transmitir elegância, velocidade e profissionalismo, buscando coerência com o posicionamento da Porsche.
-
-Como referência estética, foi utilizado o site da Ferrari de São Paulo:
+A identidade visual foi concebida para transmitir elegância, velocidade e profissionalismo, buscando coerência com o posicionamento da Porsche. Como referência estética, foi utilizado o site da Ferrari de São Paulo:
 
 [https://saopaulo.ferraridealers.com/pt-PT](https://saopaulo.ferraridealers.com/pt-PT)
 
-A proposta visual priorizou uma apresentação limpa e refinada, com atenção à paleta de cores, tipografia, hierarquia das informações e organização dos elementos gráficos.
-
-Foram utilizadas as famílias tipográficas Cormorant Garamond e Inter, combinando características editoriais e contemporâneas.
-
 ## Metodologia de Desenvolvimento e Utilização de IA Generativa
 
-A construção da dashboard foi realizada com o auxílio do Gemini, utilizando sua interface convencional de conversação, sem a utilização de agentes especializados ou ferramentas como Canvas.
-
-A Inteligência Artificial Generativa foi utilizada como ferramenta de apoio à implementação da interface HTML, interpretação dos requisitos de visualização e refinamento dos elementos apresentados.
-
-O desenvolvimento foi organizado em quatro etapas.
+A construção da dashboard foi realizada com o auxílio do Gemini, utilizando sua interface convencional de conversação, sem a utilização de agentes especializados ou ferramentas como Canvas. A Inteligência Artificial Generativa foi utilizada como ferramenta de apoio à implementação da interface HTML, interpretação dos requisitos de visualização e refinamento dos elementos apresentados. O desenvolvimento foi organizado em quatro etapas.
 
 ### 1. Preparação dos Dados
 
-A planilha original foi submetida a um processo de limpeza e sanitização, com tratamento de datas inválidas, remoção de colunas com dados sujos e conversão dos valores monetários para formatos adequados à análise.
-
-Após essa etapa, foi utilizada uma versão preparada da base para orientar a construção da dashboard.
+A planilha original foi submetida a um processo de limpeza, com tratamento de datas inválidas, remoção de colunas com dados sujos e conversão dos valores monetários para formatos adequados à análise. Após essa etapa, foi utilizada uma versão preparada da base para orientar a construção da dashboard.
 
 ### 2. Construção do Prompt Inicial
 
