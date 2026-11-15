@@ -241,9 +241,9 @@ porsche-sales-dashboard/
 │       ├── dashboard-overview.png
 │       └── dashboard-filter.png
 │
-├── index.html
+├── README.md
 │
-└── README.md
+└── index.html
 ```
 
 ## Considerações Finais
