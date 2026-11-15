@@ -34,12 +34,12 @@ Foram selecionadas três perguntas para orientar a análise, considerando difere
 
 O projeto utilizou uma planilha de vendas da Porsche como fonte de dados.
 
-Antes de utilizar a base na construção da dashboard, foram realizadas etapas de preparação e sanitização para melhorar a consistência das informações disponibilizadas à ferramenta de Inteligência Artificial Generativa.
+Antes de utilizar a base na construção da dashboard, foram realizadas etapas de preparação para melhorar a consistência das informações disponibilizadas à ferramenta de Inteligência Artificial Generativa.
 
 O tratamento contemplou:
 
 - Identificação e tratamento de datas inválidas.
-- Remoção de colunas que continham dados inconsistentes ou desnecessários para a análise.
+- Remoção de colunas que continham dados inconsistentes para a análise.
 - Seleção das colunas sanitizadas que seriam utilizadas na dashboard.
 - Conversão dos valores de preço para um formato numérico adequado à realização de operações e cálculos.
 
@@ -101,8 +101,6 @@ A dashboard também disponibiliza uma tabela detalhada das transações, permiti
 - Estado e cidade.
 - Preço.
 - Status da transação.
-
-Essa funcionalidade complementa as visualizações agregadas, permitindo consultar os registros individuais que compõem a base analisada.
 
 ## Identidade Visual
 
