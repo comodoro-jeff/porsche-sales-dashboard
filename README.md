@@ -167,11 +167,11 @@ Abaixo estão reunidas as evidências visuais da solução desenvolvida.
 
 ### Dashboard Completa
 
-![Dashboard Porsche — Visão geral](assets/images/dashboard-overview.png)
+![Dashboard Porsche — Visão geral](images/dashboard-overview.png)
 
 ### Exemplo de Filtro Aplicado
 
-![Dashboard Porsche — Exemplo de filtro](assets/images/dashboard-filter.png)
+![Dashboard Porsche — Exemplo de filtro](images/dashboard-filter.png)
 
 As imagens apresentam a interface desenvolvida e um exemplo de utilização dos filtros interativos.
 
@@ -186,10 +186,9 @@ O código-fonte da aplicação está disponível neste repositório, no arquivo 
 ```text
 porsche-sales-dashboard/
 │
-├── assets/
-│   └── images/
-│       ├── dashboard-overview.png
-│       └── dashboard-filter.png
+├── images/
+│   ├── dashboard-overview.png
+│   └── dashboard-filter.png           
 │
 ├── README.md
 │
