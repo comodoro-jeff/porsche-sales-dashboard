@@ -165,34 +165,22 @@ Por fim, o nome do arquivo html deverá ser index.html.
 
 ### 3. Refinamento Iterativo
 
-Após a geração da primeira versão, foram realizadas interações adicionais com o Gemini para corrigir e complementar elementos que não estavam sendo apresentados conforme o esperado.
-
-Os refinamentos tiveram como foco:
+Após a geração da primeira versão, foram realizadas interações adicionais com o Gemini para corrigir e complementar elementos que não estavam sendo apresentados conforme o esperado. Os refinamentos tiveram como foco:
 
 - Corrigir gráficos que não estavam aparecendo.
 - Ajustar indicadores e valores que não estavam sendo exibidos.
 - Adequar as visualizações às perguntas de negócio propostas.
 - Melhorar a apresentação e a consistência dos elementos da dashboard.
 
-O processo foi conduzido por meio de instruções em linguagem natural, permitindo ajustar a implementação progressivamente até alcançar a versão final.
-
-A versão final incorporou elementos complementares aos requisitos iniciais, como indicadores adicionais, agrupamento por família ou versão específica dos modelos e uma tabela detalhada de transações.
+O processo foi conduzido por meio de instruções em linguagem natural, permitindo ajustar a implementação progressivamente até alcançar a versão final. A versão final incorporou elementos complementares aos requisitos iniciais, como indicadores adicionais, agrupamento por família, versão específica dos modelos e uma tabela detalhada de transações.
 
 ### 4. Publicação
 
-Após a conclusão dos ajustes, o arquivo HTML foi baixado e salvo como `index.html`.
-
-Em seguida, foi criado um repositório público no GitHub, no qual o arquivo foi disponibilizado.
-
-A publicação foi realizada por meio do GitHub Pages, utilizando a funcionalidade disponível nas configurações do repositório.
-
-Dessa forma, a dashboard passou a ser acessível por um endereço público, sem necessidade de executar uma aplicação localmente.
+Após a conclusão dos ajustes, o arquivo HTML foi baixado e salvo como `index.html`. Em seguida, foi criado um repositório público no GitHub, no qual o arquivo foi disponibilizado. A publicação foi realizada por meio do GitHub Pages, utilizando a funcionalidade disponível nas configurações do repositório. Dessa forma, a dashboard passou a ser acessível por um endereço público, sem necessidade de executar uma aplicação localmente.
 
 ## Tecnologias e Ferramentas
 
 - HTML
-- CSS
-- JavaScript
 - Gemini — Inteligência Artificial Generativa
 - GitHub
 - GitHub Pages
@@ -236,6 +224,4 @@ porsche-sales-dashboard/
 
 O projeto demonstrou, na prática, a utilização de Inteligência Artificial Generativa como ferramenta de apoio à construção de soluções analíticas e interfaces interativas.
 
-Além da elaboração da dashboard, o desenvolvimento envolveu etapas de preparação e sanitização de dados, definição de perguntas de negócio, especificação de requisitos, refinamento iterativo de código e publicação de uma aplicação web estática.
-
-A solução evidencia como uma base originalmente organizada em uma planilha pode ser transformada em uma experiência de exploração de dados mais acessível, visual e interativa, permitindo investigar diferentes perspectivas comerciais sem depender da interface tradicional de uma planilha eletrônica.
+Além da elaboração da dashboard, o desenvolvimento envolveu etapas de preparação de dados, definição de perguntas de negócio, especificação de requisitos, refinamento iterativo de código e publicação de uma aplicação web estática. A solução evidencia como uma base originalmente organizada em uma planilha pode ser transformada em uma experiência de exploração de dados mais acessível, visual e interativa, permitindo investigar diferentes perspectivas comerciais sem depender da interface tradicional de uma planilha eletrônica.
