@@ -20,27 +20,15 @@ Foram selecionadas três perguntas para orientar a análise, considerando difere
 
 ### 1. Qual foi o modelo mais popular em cada estado?
 
-Investigar a distribuição geográfica das vendas, identificando quais modelos da Porsche apresentam maior volume de comercialização em cada estado.
-
 **Justificativa:** compreender a preferência regional pelos diferentes modelos permite identificar diferenças no comportamento dos consumidores e possíveis concentrações de demanda por região.
-
-A análise apresenta a liderança de cada modelo por estado, permitindo comparar o volume de vendas e a receita estadual.
 
 ### 2. Qual foi a trajetória de vendas de um modelo no decorrer dos anos?
 
-Analisar a evolução temporal das vendas de determinado modelo, permitindo acompanhar seu desempenho ao longo dos períodos disponíveis na base.
-
 **Justificativa:** a análise temporal possibilita identificar tendências, oscilações e mudanças no volume de comercialização, contribuindo para compreender o comportamento de cada modelo ao longo do tempo.
-
-A visualização permite selecionar o modelo que será investigado e acompanhar sua trajetória de vendas.
 
 ### 3. Em qual modelo os carros usados são mais procurados que os zero milhas?
 
-Comparar a quantidade de veículos usados e zero quilômetro comercializados em cada modelo.
-
 **Justificativa:** identificar modelos com maior participação de veículos usados permite compreender diferenças no comportamento de compra e na composição da demanda entre as categorias de veículos.
-
-A análise compara as duas categorias de veículos, permitindo identificar modelos com maior participação de unidades usadas.
 
 ## Dados e Preparação da Base
 
